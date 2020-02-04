@@ -56,6 +56,33 @@ print(my_variables > my_variables2)
 print(my_variables <= my_variables2)
 print(my_variables >= my_variables2)
 
+# Booleans
+# Only comes in True or False
+# is - equates if something is something
+# is not - equates if something is not
 print(my_variables is 13)
 print(my_variables is not 13)
+
+# None is an appsence of values
+print(None)
+print(type(None))
+
+print(0 == None)
+
+# operators, logical & and logical Or
+
+a_var = True
+b_var = False
+
+# for &, both sides should be True for return to be True
+print(a_var & True)
+print(a_var & False)
+
+# for or, only one side need to be True for return to be True
+print(' this will be true>>>')
+print(True or False)
+james = 'sitting'
+print(james == 'sitting' or 10 > 2000)
+
+
 
