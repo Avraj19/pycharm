@@ -15,7 +15,7 @@ box_pillows = 'Books'
 # re-assigning to different types of data
 box_pillows = 14
 
-#print
+# print()
 print('hello I am a string')
 
 # type()
@@ -23,7 +23,7 @@ print('hello I am a string')
 print('14')
 print(14)
 
-#input()
+# input()
 # input prompts user for input
 print('What is your name?')
 user_input = input()
