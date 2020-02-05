@@ -4,18 +4,11 @@
 # capture input and tailor a welcome message without secrete number
 
 
-print("Enter your name: ")
-user_name = input()
-
-print("Enter your height in cm: ")
-user_height = input()
-
-print("Enter your favourite color: ")
-user_color = input()
-
-print("Enter your a secrete number : ")
-user_secrete_number = input()
+user_name = input("Enter your name: ")
+user_height = input("Enter your height in cm: ")
+user_color = input("Enter your favourite color: ")
+user_secrete_number = input("Enter your a secrete number : ")
 
 print(f"Hi {user_name}, welcome to Sparta Global,"
       f" wow you are tall at {user_height} cm."
-      f" What a coincidences my favorite color is {user_color} too ")
+      f" What a coincidences my favorite color is {user_color} too.")

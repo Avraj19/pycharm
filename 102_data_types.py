@@ -26,7 +26,7 @@ print(my_sring.count(' '))
 
 # .strip() removes trailing white spaces
 print(my_sring)
-print(my_sring.split())
+print(my_sring.sprip())
 
 # len() - function not a method
 print(len(my_sring))
